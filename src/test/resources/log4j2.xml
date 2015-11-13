@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<Configuration monitorInterval="60" shutdownHook="disable">
+    <Appenders>
+        <Console name="info_console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{ISO8601}{Europe/Berlin} | %c{1.} | %X | %highlight{%level}{Logback} | %m%n"/>
+            <Filters>
+                <ThresholdFilter level="trace"/>
+            </Filters>
+        </Console>
+    </Appenders>
+    <Loggers>
+        <Root level="error">
+            <AppenderRef ref="info_console"/>
+        </Root>
+    </Loggers>
+</Configuration>
