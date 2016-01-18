@@ -1,10 +1,10 @@
-package com.goodgame.profiling.bifroest.balancing;
+package io.bifroest.balancing;
 
 import java.util.Comparator;
 import java.util.function.Consumer;
 import java.util.function.Predicate;
 
-import com.goodgame.profiling.commons.serialize.json.JSONSerializable;
+import io.bifroest.commons.serialize.json.JSONSerializable;
 
 public interface LowLevelBucketMapping<N extends JSONSerializable> extends BucketMapping<N> {
     boolean isLonelyBucket();

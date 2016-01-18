@@ -1,4 +1,4 @@
-package com.goodgame.profiling.bifroest.balancing;
+package io.bifroest.balancing;
 
 import static org.hamcrest.Matchers.is;
 import static org.hamcrest.Matchers.notNullValue;

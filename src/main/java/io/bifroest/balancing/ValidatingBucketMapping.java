@@ -1,4 +1,4 @@
-package com.goodgame.profiling.bifroest.balancing;
+package io.bifroest.balancing;
 
 import java.util.Collection;
 import java.util.Comparator;
@@ -10,7 +10,7 @@ import java.util.function.Predicate;
 
 import org.json.JSONObject;
 
-import com.goodgame.profiling.commons.serialize.json.JSONSerializable;
+import io.bifroest.commons.serialize.json.JSONSerializable;
 
 public class ValidatingBucketMapping<N extends JSONSerializable> implements LowLevelBucketMapping<N> {
 

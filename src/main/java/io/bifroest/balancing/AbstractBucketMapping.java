@@ -1,4 +1,4 @@
-package com.goodgame.profiling.bifroest.balancing;
+package io.bifroest.balancing;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -8,9 +8,9 @@ import java.util.function.Consumer;
 import java.util.function.Predicate;
 import java.util.stream.Stream;
 
-import com.goodgame.profiling.bifroest.balancing.statistics.NodeJoinFinished;
-import com.goodgame.profiling.bifroest.balancing.statistics.NodeJoinStarted;
-import com.goodgame.profiling.commons.serialize.json.JSONSerializable;
+import io.bifroest.balancing.statistics.NodeJoinFinished;
+import io.bifroest.balancing.statistics.NodeJoinStarted;
+import io.bifroest.commons.serialize.json.JSONSerializable;
 
 public abstract class AbstractBucketMapping<N extends JSONSerializable> implements LowLevelBucketMapping<N> {
 

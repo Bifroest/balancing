@@ -1,4 +1,4 @@
-package com.goodgame.profiling.bifroest.balancing;
+package io.bifroest.balancing;
 
 import java.time.Clock;
 import java.util.Arrays;
@@ -7,14 +7,14 @@ import java.util.HashSet;
 import java.util.Random;
 import java.util.Set;
 
-import com.goodgame.profiling.commons.statistics.WriteToStorageEvent;
-import com.goodgame.profiling.commons.statistics.eventbus.EventBus;
-import com.goodgame.profiling.commons.statistics.eventbus.EventBusManager;
-import com.goodgame.profiling.commons.statistics.eventbus.disruptor.DisruptorEventBus;
-import com.goodgame.profiling.commons.statistics.gathering.CompositeStatisticGatherer;
-import com.goodgame.profiling.commons.statistics.storage.JSONMetricStorage;
-
 import org.subquark.mtdt.generators.StringGenerator;
+
+import io.bifroest.commons.statistics.WriteToStorageEvent;
+import io.bifroest.commons.statistics.eventbus.EventBus;
+import io.bifroest.commons.statistics.eventbus.EventBusManager;
+import io.bifroest.commons.statistics.eventbus.disruptor.DisruptorEventBus;
+import io.bifroest.commons.statistics.gathering.CompositeStatisticGatherer;
+import io.bifroest.commons.statistics.storage.JSONMetricStorage;
 
 public class BucketMappingTest {
 

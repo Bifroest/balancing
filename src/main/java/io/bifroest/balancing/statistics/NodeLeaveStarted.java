@@ -1,7 +1,8 @@
-package com.goodgame.profiling.bifroest.balancing.statistics;
+package io.bifroest.balancing.statistics;
 
-import com.goodgame.profiling.commons.statistics.eventbus.EventBusManager;
 import java.time.Instant;
+
+import io.bifroest.commons.statistics.eventbus.EventBusManager;
 
 public final class NodeLeaveStarted {
 

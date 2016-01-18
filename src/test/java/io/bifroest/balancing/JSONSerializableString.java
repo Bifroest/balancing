@@ -4,11 +4,12 @@
  * and open the template in the editor.
  */
 
-package com.goodgame.profiling.bifroest.balancing;
+package io.bifroest.balancing;
 
-import com.goodgame.profiling.commons.serialize.json.JSONSerializable;
 
 import org.json.JSONObject;
+
+import io.bifroest.commons.serialize.json.JSONSerializable;
 
 
 public class JSONSerializableString implements JSONSerializable {

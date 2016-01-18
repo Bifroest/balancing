@@ -1,12 +1,12 @@
-package com.goodgame.profiling.bifroest.balancing;
+package io.bifroest.balancing;
 
 import java.util.Objects;
 import java.util.function.Function;
 
-import com.goodgame.profiling.bifroest.balancing.statistics.BucketIncreasedEvent;
-import com.goodgame.profiling.commons.serialize.json.JSONSerializable;
-
 import org.json.JSONObject;
+
+import io.bifroest.balancing.statistics.BucketIncreasedEvent;
+import io.bifroest.commons.serialize.json.JSONSerializable;
 
 public final class Bucket<N extends JSONSerializable> implements JSONSerializable {
 

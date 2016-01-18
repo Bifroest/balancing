@@ -1,20 +1,20 @@
-package com.goodgame.profiling.bifroest.balancing;
+package io.bifroest.balancing;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Function;
 
-import com.goodgame.profiling.bifroest.balancing.statistics.NodeJoinFinished;
-import com.goodgame.profiling.bifroest.balancing.statistics.NodeJoinStarted;
-import com.goodgame.profiling.bifroest.balancing.statistics.NodeLeaveFinished;
-import com.goodgame.profiling.bifroest.balancing.statistics.NodeLeaveStarted;
-import com.goodgame.profiling.commons.serialize.json.JSONSerializable;
-import com.goodgame.profiling.commons.serialize.json.Serializers;
-
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.json.JSONArray;
 import org.json.JSONObject;
+
+import io.bifroest.balancing.statistics.NodeJoinFinished;
+import io.bifroest.balancing.statistics.NodeJoinStarted;
+import io.bifroest.balancing.statistics.NodeLeaveFinished;
+import io.bifroest.balancing.statistics.NodeLeaveStarted;
+import io.bifroest.commons.serialize.json.JSONSerializable;
+import io.bifroest.commons.serialize.json.Serializers;
 
 public final class KeepNeighboursMapping<N extends JSONSerializable> extends AbstractBucketMapping<N> {
     private static final Logger log = LogManager.getLogger();

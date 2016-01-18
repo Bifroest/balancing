@@ -1,15 +1,18 @@
-package com.goodgame.profiling.bifroest.balancing.statistics;
+package io.bifroest.balancing.statistics;
 
-import com.goodgame.profiling.bifroest.balancing.PopulationStatistics;
-import com.goodgame.profiling.commons.statistics.WriteToStorageEvent;
-import com.goodgame.profiling.commons.statistics.eventbus.EventBusManager;
-import com.goodgame.profiling.commons.statistics.eventbus.EventBusRegistrationPoint;
-import com.goodgame.profiling.commons.statistics.gathering.StatisticGatherer;
-import com.goodgame.profiling.commons.statistics.storage.MetricStorage;
+
 import java.util.Collection;
 import java.util.Collections;
 import java.util.stream.Collectors;
+
 import org.kohsuke.MetaInfServices;
+
+import io.bifroest.balancing.PopulationStatistics;
+import io.bifroest.commons.statistics.WriteToStorageEvent;
+import io.bifroest.commons.statistics.eventbus.EventBusManager;
+import io.bifroest.commons.statistics.eventbus.EventBusRegistrationPoint;
+import io.bifroest.commons.statistics.gathering.StatisticGatherer;
+import io.bifroest.commons.statistics.storage.MetricStorage;
 
 @MetaInfServices
 public class BucketBalanceTracker implements StatisticGatherer {

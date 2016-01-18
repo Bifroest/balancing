@@ -1,9 +1,10 @@
-package com.goodgame.profiling.bifroest.balancing;
+package io.bifroest.balancing;
 
-import com.goodgame.profiling.commons.statistics.storage.MetricStorage;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.stream.Collectors;
+
+import io.bifroest.commons.statistics.storage.MetricStorage;
 
 public class PopulationStatistics {
 

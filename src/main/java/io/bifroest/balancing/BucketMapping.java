@@ -1,6 +1,6 @@
-package com.goodgame.profiling.bifroest.balancing;
+package io.bifroest.balancing;
 
-import com.goodgame.profiling.commons.serialize.json.JSONSerializable;
+import io.bifroest.commons.serialize.json.JSONSerializable;
 
 public interface BucketMapping<N extends JSONSerializable> extends JSONSerializable {
     void joinNode( N node );
